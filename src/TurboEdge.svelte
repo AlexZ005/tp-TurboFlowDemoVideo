@@ -5,6 +5,7 @@
 
   export let id: $$Props['id'];
   export let markerEnd: $$Props['markerEnd'];
+  export let markerStart: $$Props['markerStart'];
   export let sourceX: $$Props['sourceX'];
   export let sourceY: $$Props['sourceY'];
   export let sourcePosition: $$Props['sourcePosition'];
@@ -29,4 +30,4 @@
   }
 </script>
 
-<path {id} class="svelte-flow__edge-path" d={edgePath} marker-end={markerEnd} />
+<path {id} class="svelte-flow__edge-path" d={edgePath} marker-end={markerEnd} marker-start={markerStart} />

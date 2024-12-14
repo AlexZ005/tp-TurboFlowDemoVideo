@@ -32,7 +32,7 @@
         {/if}
       </div>
     </div>
-    <Handle type="target" position={Position.Top} />
-    <Handle type="source" position={Position.Top} />
+    <Handle type="target" position={Position.Bottom} />
+    <Handle type="source" position={Position.Bottom} />
   </div>
 </div>

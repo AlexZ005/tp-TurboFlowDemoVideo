@@ -6,6 +6,9 @@
 
   import { initialNodes, initialEdges } from './nodes-and-edges';
   import TurboNode from './TurboNode.svelte';
+  import TurboNodeA from './TurboNodeA.svelte';
+  import TurboNodeB from './TurboNodeB.svelte';
+  import TurboNodeC from './TurboNodeC.svelte';
   import TurboEdge from './TurboEdge.svelte';
 
   const nodes = writable<Node[]>(initialNodes);
@@ -13,6 +16,9 @@
 
   const nodeTypes = {
     turbo: TurboNode,
+    turboa: TurboNodeA,
+    turbob: TurboNodeB,
+    turboc: TurboNodeC
   };
 
   const edgeTypes = {
